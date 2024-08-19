@@ -33,13 +33,13 @@ class Account :
 #5- Créer une instance de la classe Account
 my_account = Account("123456789", "Ali", 500000.0)
 
-#7- Utiliser les méthodes de la classe
+#6- Utiliser les méthodes de la classe
 my_account.deposit(50000.0)                                # Déposer de l'argent
 my_account.withdraw(2500.0)                                # Retirer de l'argent
 my_account.check_balance()                                 # Vérifier le solde du compte
 
 
-#6-Testez le programme en créant plusieurs instances
+#7-Testez le programme en créant plusieurs instances
    #- Créer une instance de la classe Account
 my_account = Account(input("Numéro de compte: "), input("Titulaire du compte: "), float(input("Solde du compte: ")))
 
